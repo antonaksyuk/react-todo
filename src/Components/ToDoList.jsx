@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./ToDoList.css";
 
 import Title from "./Title";
-import Form from "./form";
+import Form from "./Form";
 import ToDo from "./ToDo";
 
 const ToDoList = () => {
