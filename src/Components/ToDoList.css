@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #1c1c1c, #2a2a2a);
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#root > div {
+  max-width: 700px;
+  padding: 20px;
+}

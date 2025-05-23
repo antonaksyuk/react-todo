@@ -1,0 +1,33 @@
+.todo {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo div:first-child {
+  flex-grow: 1;
+  color: #e0e0e0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #333;
+  color: #ccc;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
